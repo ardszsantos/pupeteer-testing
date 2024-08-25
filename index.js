@@ -13,9 +13,9 @@ async function screenshot(url) {
     
     await browser.close();
 }
-/* screenshot('https://github.com/ardszsantos'); */
+screenshot('https://github.com/ardszsantos'); 
 
-
+/* 
 
 async function books(url) {
   const browser = await pt.launch({ headless: true });
@@ -48,4 +48,4 @@ async function books(url) {
   });
 };
 
-books('https://books.toscrape.com/')
+books('https://books.toscrape.com/') */
