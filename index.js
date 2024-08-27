@@ -1,6 +1,7 @@
 const pt = require('puppeteer');
 const fs = require('fs'); 
 
+/* 
 async function screenshot(url) {
     const browser = await pt.launch();
     const page = await browser.newPage();
@@ -14,6 +15,7 @@ async function screenshot(url) {
     await browser.close();
 }
 screenshot('https://github.com/ardszsantos'); 
+*/
 
 /* 
 
